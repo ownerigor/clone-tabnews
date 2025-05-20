@@ -2,12 +2,15 @@ function Home() {
   return (
     <div style={{ textAlign: "center", margin: "0 auto", maxWidth: "800px" }}>
       <h1>TripsNews: O começo!</h1>
-      <h3>
-        Devo confessar que a minha ideia inicial com o TripsNews, era fazer com
-        que fosse uma página simples para mostrar notícias sobre viagens, que
-        pudesse influenciar pessoas a viajarem por conta do conteúdo mostrado.
-        Mas creio que posso chegar muito além disso. Vem ai a minha ideia
-        McDonald's:
+      <div>
+        <p>
+          Devo confessar que a minha ideia inicial com o TripsNews, era fazer
+          com que fosse uma página simples para mostrar notícias sobre viagens,
+          que pudesse influenciar pessoas a viajarem por conta do conteúdo
+          mostrado. Mas creio que posso chegar muito além disso. Vem ai a minha
+          ideia McDonald's:
+        </p>
+
         <h2>Propósito do TripsNews:</h2>
         <ul style={{ textAlign: "justify", display: "inline-block" }}>
           <li>
@@ -36,9 +39,12 @@ function Home() {
             específica.
           </li>
         </ul>
-        Perfil do Usuário: Pessoas que se interessam por viagens e querem
-        conhecer um pouco o que cada lugar pode proporcionar.
-      </h3>
+
+        <p>
+          Perfil do Usuário: Pessoas que se interessam por viagens e querem
+          conhecer um pouco o que cada lugar pode proporcionar.
+        </p>
+      </div>
     </div>
   );
 }
